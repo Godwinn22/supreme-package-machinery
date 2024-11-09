@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", serif;
+  font-style: normal;
+}
+header{
+    background-color: #0027AF;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.contact-info .comp-name {
+	align-self: center;
+}
+.con{
+    margin: auto;
+    width: 90%;
+}
+sup{
+    color: black;
+    font-size: 15px;
+    color: white;
+}
+.sub{
+    border-radius: 20px;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid transparent;
+    background-color: red;
+    color: white;
+}
+.su{
+    border-radius: 20px;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid transparent;
+    background-color: red;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 15px 0;
+}
+.Hamburger-menu{
+    display: none;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+ul .list a{
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.list{
+    list-style: none;
+}
+
+.list a:hover {
+    background: #fff;
+    color: black;
+    padding: 14px 21px;
+  }
+.logo{
+    display: flex;
+    align-items: center;
+}
+.h1{
+    color: white;
+    font-size: 27px;
+	white-space: pre-wrap;
+	text-transform: uppercase;
+}
+.h1-span {
+	color: red;
+}
+ul .fa-cart-shopping{
+    transition: all 0.3s ease;
+}
+ul .fa-cart-shopping:hover{
+    color: black;
+    background-color: white;
+    padding: 14px 21px;
+}
+
+.div{
+    margin-top: 170px;
+}
+.p{
+    color: white;
+    font-size: 20px;
+}
+.h2{
+    margin-top: 30px;
+    color: white;
+    font-size: 45px;
+}
+#btn1{
+    margin-top: 30px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+#btn1:hover{
+    background-color: #0027AF;
+    color: white;
+}
+body {
+  position: relative;
+  height: 100%;
+}
+.mySwiper1{
+  width: 100%;
+  height: 75%;
+  display: block;
+}
+.mySwiper2{
+    display: none;
+}
+
+swiper-slide {
+  background-color: #031557;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new{
+    color: #0027AF;
+    margin-top: 25px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text1{
+    color: white;
+    background-color: #0027AF;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 80%;
+    text-align: center;
+    font-size: 23px;
+}
+.imge{
+    /* background-image: url(/Images/main-2.jpg);
+    background-size: cover; */
+    transition: transform 0.6s ease-in-out;
+}
+.imge:hover{
+    transform: scale(1.05); 
+}
+.imge1{
+    background-image: url("../Images/main-2.jpg");
+    background-size: cover;
+}
+.imge2{
+    background-image: url("../Images/WhatsApp\ Image\ 2024-10-29\ at\ 14.06.52.jpeg");
+    background-size: cover;
+}
+.imge3{
+    background-image: url("../Images/WhatsApp\ Image\ 2024-09-30\ at\ 05.53.29\ \(4\).jpeg");
+    background-size: cover;
+}
+.imge4{
+    background-image: url("../Images/WhatsApp\ Image\ 2024-09-30\ at\ 05.53.29.jpeg");
+    background-size: cover;
+} 
+/* .imge5{
+    background-image: url(/Images/WhatsApp\ Image\ 2024-09-30\ at\ 05.53.30\ \(2\).jpeg);
+    background-size: cover;
+    background-position: center;
+} */
+.imge6{
+    background-image: url("../Images/WhatsApp\ Image\ 2024-09-30\ at\ 05.53.30.jpeg");
+    background-size: cover;
+}
+.imge7{
+    background-image: url("../Images/WhatsApp\ Image\ 2024-09-30\ at\ 05.53.30\ \(2\).jpeg");
+    background-size: cover;
+}
+.imge8{
+    background-image: url("../Images/WhatsApp\ Image\ 2024-09-30\ at\ 05.53.30\ \(3\).jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.imge9{
+    background-image: url("../Images/WhatsApp\ Image\ 2024-10-29\ at\ 07.54.22.jpeg");
+    background-size: cover;
+}
+.imge10{
+    background-image: url("../Images/c24630fc-b481-45b0-a133-47882f572fa6.jpeg");
+    background-size: cover;
+}
+.imge11{
+    background-image: url("../Images/69425a1f-d1d1-490b-9baf-6432a70990ed.jpeg");
+    height: 300px;
+    background-size: cover;
+}
+.imge12{
+    background-image: url("../Images/cd287e1d-4adc-429f-a0ad-2dd12d2d7322.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.imge13{
+    background-image: url("../Images/4161641f-89cd-4695-80a2-f49ca4b206da.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+.imge14{
+    background-image: url("../Images/82435809-1d70-47d5-be5b-884c62531117.jpeg");
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+.imge15{
+    background-image: url("../Images/062ff8bf-f5f3-4cf0-959f-da6c15090151.jpeg");
+    background-size: cover;
+}
+.imge16{
+    background-image: url("../Images/3ed627be-5d90-4838-8651-73039a5e6078.jpeg");
+    background-size: cover;
+}
+.imge17{
+    background-image: url("../Images/dd98a68d-440b-4270-99b0-36a412cd8d3d.jpeg");
+    background-size: cover;
+    height: 300px;
+}
+.imge18{
+    background-image: url("../Images/WhatsApp\ Image\ 2024-10-03\ at\ 07.02.57.jpeg");
+    background-size: cover;
+}
+.Grid{
+    display: grid;
+    grid-template-columns: 10fr 10fr 10fr;
+    grid-template-rows: 300px 300px 300px;
+    column-gap: 1.5rem;
+    row-gap: 5rem;
+    margin-top: 40px;
+}
+.banner-image{
+    margin-top: 80px;
+}
+.one-img {
+	padding: 60px 0 20px 0;
+}
+.img-div{
+    margin-top: 25px;
+}
+.flex-div{
+    display: flex;
+    justify-content: space-between;
+	gap: 3rem;
+	padding-bottom: 60px;
+}
+
+/* Footer styling  */
+footer{
+    background-color: #0027AF;
+    color: white;
+}
+.contact-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5rem;
+    /* padding: 20px 0 0 0; */
+	padding: 60px 0 60px 0;
+}
+.contact-info .section:nth-of-type(2) p {
+	padding: 4px 0;
+}
+.h2-supreme{
+    font-size: 30px;
+    font-weight: 500;
+}
+.p-supreme{
+    font-size: 18px;
+    font-weight: 100;
+    white-space: pre-line;
+    color: rgb(252, 236, 216);
+}
+.h-1{
+    color: #0027AF;
+}
+.h-2{
+    font-size: 19px;
+    margin-top: 35px;
+}
+.class-font{
+    font-size: 45px;
+}
+.hr{
+    width: 97%;
+    height: 2px;
+    background-color: white;
+	margin: auto;
+}
+
+#copy {
+	color: white;
+}
+
+.copyrights{
+    /* margin-top: 30px; */
+	padding: 25px 0;
+    font-size: 19px;
+}
+.myswiper{
+    display: none;
+}
+button{
+    margin-top: 10px;
+}
+.src-img{
+    width: 100%;
+    height: 450px;
+    background-image: url("../Images/main-2.jpg");
+    background-size: cover;
+}
+
+
+.div-products{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2rem;
+}
+.section-one {
+	padding: 3rem 0;
+}
+#section-spec {
+	padding: 3rem 0 0rem 0;
+}
+/* .more-details{
+	height: 100vh;
+} */
+ .specs {
+	padding-bottom: 60px;
+	padding-top: 30px;
+ }
+.border-image{
+	border-radius: 9px;
+	width:450px;
+	height: 400px;
+	transition: transform 0.5s ease-in-out;
+}
+:hover.border-image{
+	transform: scale(1.01);
+}
+.products-details{
+	color: blue;
+	height: auto;
+	font-size: 20px;
+}
