@@ -277,6 +277,7 @@ swiper-slide {
 footer{
     background-color: #0027AF;
     color: white;
+	width: 100%;
 }
 .contact-info{
     display: grid;
