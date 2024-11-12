@@ -20,17 +20,41 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
         <style>
-			.h4{
-				margin-top: 40px;
+            .div-products{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 2rem;
+            }
+            .section-one {
+				padding: 3rem 0;
+			}
+            /* .more-details{
+				height: 100vh;
+            } */
+            .border-image{
+                border-radius: 9px;
+                transition: transform 0.5s ease-in-out;
+            }
+            :hover.border-image{
+                transform: scale(1.01);
+            }
+            .products-details{
+                color: blue;
+                height: auto;
+                font-size: 20px;
+            }
+            .h4{
+                margin-top: 27px;
             }
             .Quantity{
-				display: flex;
+                display: flex;
                 gap: 1rem;
                 margin-top: 30px;
                 /* align-items: center; */
             }
             .Quantity-counter{
-				display: flex;
+                display: flex;
                 justify-content: space-between;
                 width: 26%;
                 border: 2px solid rgb(50, 50, 255);
@@ -43,7 +67,7 @@
                 color: rgb(32, 32, 247);
             }   
             .Positivity{
-				width: 20%;
+                width: 20%;
                 background-color: rgb(138, 138, 255);
                 border: 1px solid transparent;
                 font-size: 30px;
@@ -61,6 +85,12 @@
                 border: 1px solid transparent;
                 font-size: 15px;
             }
+            /* :hover.button-class{
+                background-color: white;
+                color: blue;
+                border: 1px solid blue;
+                transition: all 0.5s ease-in-out;
+            } */
             .addToCart{
                 width: 40%;
                 padding: 15px 0 15px 0;
@@ -69,24 +99,25 @@
                 border: 1px solid blue;
                 font-size: 15px;
                 background-color: transparent;
-                margin-top: 10px;
             }
             :hover.button-class1{
-				background-color: rgb(5, 5, 161);
+                background-color: rgb(5, 5, 161);
                 color: white;
                 transition: all 0.5s ease-in-out;
             }
             input{
-				height: 5vh;
+                height: 5vh;
                 width: 30%;
                 outline: blue;
                 border: 2px solid blue;
                 padding: 0 0 0 5px;
             }
-			</style>
-			<link rel="stylesheet" href="./Style/media.css">
+        </style>
+        <link rel="stylesheet" href="./Style/media.css">
 </head>
 <body>
+
+
     <header>
         <nav class="con">
             <div class="logo">
@@ -114,55 +145,58 @@ Package Machinery Ventures</h1>
 		<div class="con more-details">
 			<div class="div-products">
 				<div class="prod-image" id="prod5">
-					<img src="./Images/WhatsApp Image 2024-10-01 at 09.41.22.jpeg" alt="" class="border-image">
+					<img src="./Images/3ed627be-5d90-4838-8651-73039a5e6078.jpeg" alt="" class="border-image">
 				</div>
 				<div class="products-details">
-					<p class="p-text">
-					Washing (12 heads) Filling (12 heads) Capping (5 heads) with steam labelling bottle label unit. This machine is used for washing filling capping and labelling of plastic bottles in a production line for table water.</p>
-					<h4 class="h4">Bottle Line </h4>
+					<p class="p-text">Reverse osmosis process uses semi permeable spiral wound membranes to separate and remove dissolved solids,organic, pyrogens, sub micron colloidal matter and bacteria from water. Feed water isdelivered under a pressure of approximately 16 kg/cm2 through reverse osmosis membranes. Waterpermeates the minute pores of the membrane and is delivered as purified water. Impurities in the water are concentrated in the reject stream and flushed to drain</p>
+					<h4 class="h4">Reverser Osmosis With <br>
+					Stainless Treatment Plant</h4>
 					<label>Quantity:</label>
 					<input type="number" id="quantity1" value="1" min="1"> <br>
-					<button class="addToCart" data-name="High Performance Monoblock Bottling Line 12-12-5" data-image="./Images/WhatsApp Image 2024-10-01 at 09.41.22.jpeg">Add to Cart</button>
+					<button class="addToCart" data-name="Reverser Osmosis With Stainless Treatment Plant" data-image="./Images/3ed627be-5d90-4838-8651-73039a5e6078.jpeg">Add to Cart</button>
 					<button class="button-class"><a href="cart.html">View Cart</a></button>
 				</div>
 			</div>
 		</div>
 	</section>
+	
 
 
 <div id="errorMessage" style="color: red;"></div>
-<footer>
-	<div class="contact-info con">
-		<div class="section comp-name">
-			<h2 class="h2-supreme">Supreme Package Machinery Ventures.</h2>
-			<!-- <p class="p-supreme">
-				Supreme Packkage Machinery Ventures and Services Limited Was Incorporated in
-				Lagos with Registration Number 1254058.It was established on the 09
-				April 2010.
-			</p> -->
-		</div>
-		<div class="section">
-			<h2 class="h2-supreme">Get Info</h2>
-			<p class="p-supreme">Phone - 07013656966, 08035716074</p>
-			<p class="p-supreme">Email - info@supremepackagemachinery.com,
-				supremeindustrialmachines@yahoo.com
-			</p>
-			<p class="p-supreme">Web- www.supremepackagemachinery.com</p>
-		</div>
-		<div class="section">
-			<h2 class="h2-supreme">What we offer</h2>
-			<p class="p-supreme">We specialize in the research & development, design, sales,
-				installation, and after-sale service for purified drinking water
-				project, carbonated drink project and Juice project in West Africa
-				We have range of products available to choose from.
-			</p>
-		</div>
-	</div>
-	<div class="hr"></div>
-	<p style="text-align: center;" class="copyrights">
-		Copyrights <i class="fa-regular fa-copyright"></i> 2024 all rights reserved Supreme Industry machine Ventures limited
-	  </p>
-</footer>
+
+
+    <footer>
+        <div class="contact-info con">
+            <div class="section comp-name">
+                <h2 class="h2-supreme"> Supreme Package Machinery Ventures.</h2>
+                <!-- <p class="p-supreme">
+                    Supreme Packkage Machinery Ventures and Services Limited Was Incorporated in
+                    Lagos with Registration Number 1254058.It was established on the 09
+                    April 2010.
+                </p> -->
+            </div>
+            <div class="section">
+                <h2 class="h2-supreme">Get Info</h2>
+<p class="p-supreme">Phone - 07013656966, 08035716074</p>
+                <p class="p-supreme">Email - info@supremepackagemachinery.com,
+                        supremeindustrialmachines@yahoo.com
+                    </p>
+                    <p class="p-supreme">Web- www.supremepackagemachinery.com</p>
+            </div>
+            <div class="section">
+                <h2 class="h2-supreme">What we offer</h2>
+                <p class="p-supreme">We specialize in the research & development, design, sales,
+                    installation, and after-sale service for purified drinking water
+                    project, carbonated drink project and Juice project in West Africa
+                    We have range of products available to choose from.
+                </p>
+            </div>
+        </div>
+        <div class="hr"></div>
+        <p style="text-align: center;" class="copyrights">
+            Copyrights <i class="fa-regular fa-copyright"></i> 2024 all rights reserved Supreme Package Machinery Ventures limited
+          </p>
+    </footer>
     <script src="./Javascript/script.js"></script>
     <script src="./Javascript/script2.js"></script>
 </body>
