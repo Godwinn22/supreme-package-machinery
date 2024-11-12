@@ -140,20 +140,21 @@ ul .fa-cart-shopping:hover {
 #placeholder {
     max-width: 100%;
     height: 9vh;
+	font-size: 16px;
     border-radius: 8px;
     border: 3px solid #0027AF;
     outline: none;
-    padding: 0 10px 0 20px;
+    padding: 0 20px 0 20px;
 }
 
-.btn3 {
-    width: 30%;
-    padding: 15px 20px 15px 10px;
+/* .btn3 {
+    padding: 15px 20px;
     background-color: blue;
     color: white;
     border: none;
     border-radius: 9px;
-}
+	cursor: pointer;
+} */
 .uil{
     font-size: 45px;
     color: white;
@@ -163,3 +164,41 @@ ul .fa-cart-shopping:hover {
     align-items: center;
     gap: 1rem;
 }
+/* Contact page addition */
+.icon .anchr, .btn3 {
+	padding: 13px 15px;
+	border:  2px solid #0027AF;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #0027AF;
+	background-color: white;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 15px;
+	transition: all ease-in 300ms;
+}
+.icon .anchr:hover, .btn3:hover {
+	border-color: transparent;
+	background-color: #0027AF;
+	color: white;
+}
+.message-label {
+	color: rgb(0, 0, 151);
+	font-size: 20px;
+}
+form h1 {
+	color: rgb(0, 0, 151);
+	font-size: 30px;
+}
+.textarea {
+	width: 100%;
+	border:  2px solid #0027AF;
+	height: 150px;
+	margin-top: -25px;
+    padding: 10px 20px;
+	font-size: 16px;
+	outline: none;
+	border-radius: 8px;
+}
+

@@ -260,7 +260,16 @@
 }
 .vid{
     flex-direction: column;
+	align-items: normal;
+	row-gap: 2rem;
 }
+.textarea {
+	margin-top: 0px;
+}
+.contact-section {
+	align-self: left;
+}
+
 .text3{
     font-size: 35px;
 }
@@ -324,6 +333,10 @@ p{
 #prod5 img {
 	height: 600px;
 	object-fit: cover;
+}
+.logo .img {
+	width: 80px !important;
+	height: 80px !important;
 }
 .media-img{
     width: 100%;

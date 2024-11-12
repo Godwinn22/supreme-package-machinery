@@ -273,6 +273,15 @@ swiper-slide {
 	padding-bottom: 60px;
 }
 
+/* Contact page addition */
+.icon button {
+	padding: 13px 15px;
+	border:  2px solid transparent;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+
 /* Footer styling  */
 footer{
     background-color: #0027AF;
